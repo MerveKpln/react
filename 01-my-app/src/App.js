@@ -1,9 +1,12 @@
-
-
+import Hello from "./components/hello/Hello"
+import Test from "./components/test/Test";
 function App() {
   return (
-    <div className="App">
+    <div>
+      
      Merhaba Dunya
+     <Hello/>
+     <Test />
     </div>
   );
 }
