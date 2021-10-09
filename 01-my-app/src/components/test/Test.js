@@ -1,7 +1,7 @@
 const Test =()=>{
     return(
         <div>
-        Bu bir test componenti dir.
+        Bu bir test componenti dir.(test)
     </div>
     )
 };
