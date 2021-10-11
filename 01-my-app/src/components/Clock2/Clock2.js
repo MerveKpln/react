@@ -1,7 +1,7 @@
 import "./clock2.css";
 import moment from "moment";
 
-const Clock2 =() =>{
+const Clock2 =(props) =>{
    
     const dateTime = moment();
     const timeStr = dateTime.format("HH:MM");
@@ -15,7 +15,7 @@ const Clock2 =() =>{
     else if (hour>=17 && hour<21 ) message="Evening";
     else  message="Night";
 
-    return( <div className="clock-container">
+    return( <div className="clock-container" style={{color: props.textColor , backgroundColor: props.backgroundColor}}>
         <div className="clock">{timeStr}</div>
         <div>
             <div className="date">{dateStr}</div>
