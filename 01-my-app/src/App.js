@@ -3,9 +3,12 @@ import BSCClassic from "./components/bootstrap-classic/BSCClassic";
 import BSReact from "./components/bootstrap-react/BSReact";
 import Clock1 from "./components/Clock1/Clock1";
 import Clock2 from "./components/Clock2/Clock2";
+import Counter from "./components/counter/Counter";
 import Image from "./components/image/Image";
 import Profile from "./components/profile/Profile";
 import Props from "./components/props/Props";
+import Shop from "./components/shop/Shop";
+import State from "./components/state/State";
 // import Hello from "./components/hello/Hello"
 // import Jsx from "./components/jsx/Jsx";
 // import ExternalStyle from "./components/style/ExternalStyle";
@@ -58,8 +61,14 @@ function App() {
       <Image />
       
       <BSCClassic />
-      */}
+      
       <BSReact />
+     
+      <Shop />
+       
+      <State />
+      */}
+      <Counter />
     </div>
   );
 }
