@@ -1,14 +1,20 @@
 import React from "react";
+import Birthday from "./components/birthday/Birthday";
 import BSCClassic from "./components/bootstrap-classic/BSCClassic";
 import BSReact from "./components/bootstrap-react/BSReact";
 import Clock1 from "./components/Clock1/Clock1";
 import Clock2 from "./components/Clock2/Clock2";
+import Clock3 from "./components/Clock3/Clock3";
 import Counter from "./components/counter/Counter";
 import Image from "./components/image/Image";
+import Odev from "./components/odev1/Odev";
+
 import Profile from "./components/profile/Profile";
 import Props from "./components/props/Props";
 import Shop from "./components/shop/Shop";
 import State from "./components/state/State";
+import ChangeTitle from "./components/useEffect/ChangeTitle";
+import UserCards from "./components/userCards/UserCards";
 // import Hello from "./components/hello/Hello"
 // import Jsx from "./components/jsx/Jsx";
 // import ExternalStyle from "./components/style/ExternalStyle";
@@ -67,8 +73,18 @@ function App() {
       <Shop />
        
       <State />
-      */}
+     
       <Counter />
+      
+      <Odev />
+      
+      <Birthday />
+      
+      <Clock3 />
+      
+      <ChangeTitle />
+       */}
+      <UserCards />
     </div>
   );
 }
