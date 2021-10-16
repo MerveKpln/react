@@ -8,6 +8,7 @@ import Clock3 from "./components/Clock3/Clock3";
 import Counter from "./components/counter/Counter";
 import Image from "./components/image/Image";
 import Odev from "./components/odev1/Odev";
+import Countries from "./components/countries/Countries";
 
 import Profile from "./components/profile/Profile";
 import Props from "./components/props/Props";
@@ -83,8 +84,10 @@ function App() {
       <Clock3 />
       
       <ChangeTitle />
-       */}
+       
       <UserCards />
+      */}
+      <Countries />
     </div>
   );
 }
